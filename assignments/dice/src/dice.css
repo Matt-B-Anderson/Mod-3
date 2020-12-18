@@ -1,0 +1,34 @@
+html {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: minmax(200px, auto);
+  grid-gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid p {
+  line-height: 10;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+.dice {
+  border-radius: 10px;
+  border: black;
+  border-style: solid;
+}
+
+.dicebutton {
+  margin-left: 46.5vw;
+  align-content: center;
+  border: black;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+}

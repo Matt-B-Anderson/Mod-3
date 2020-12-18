@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.square {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  border: black;
+  border-style: solid;
+}
+
+.button-holder {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.djbutton {
+  align-content: center;
+  border: black;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 10px;
+}
